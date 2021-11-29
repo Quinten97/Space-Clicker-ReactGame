@@ -28,9 +28,9 @@ export default function CookieButton({
   }, 1000);
 
   return (
-    <div className="main-container">
+    <div className="main container">
       {/* Progress bar for game completion */}
-      <div className="progressbar-container">
+      <div className="progressbar container">
         <p className="progress-p">
           {Math.round((progress / 150000000) * 100)}%
         </p>
@@ -41,7 +41,7 @@ export default function CookieButton({
         ></progress>
       </div>
       {/* Counter and Main Button */}
-      <div className="counter-container blur-effect">
+      <div className="counter container blur-effect">
         <h1>{Math.floor(count)}</h1>
         <p>
           SPS: {autoIncrement} SPC: {manIncrement}

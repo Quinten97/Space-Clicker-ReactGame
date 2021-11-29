@@ -29,7 +29,7 @@ export default function App() {
         progress={progress}
         setProgress={setProgress}
       />
-      <div className="store-container blur-effect">
+      <div className="store container blur-effect">
         <UpgradeManualCollector
           count={count}
           setCount={setCount}

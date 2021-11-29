@@ -24,14 +24,22 @@ export default function AchievementComp({ count, setCount, progress }) {
   ];
 
   return (
-    <div className="achievements-container">
+    <div className="achievements container">
       {achivements.map((a) => (
         <div
           className={
-            progress >= a.value ? "achievements-on" : "achievements-off"
+            "btn " +
+            (progress >= a.value ? "achievements-on" : "achievements-off")
           }
         >
-          {a.img} {a.name} <br /> {a.text}
+          {a.img}{" "}
+          {progress >= a.value ? (
+            <>
+              {a.name} <br /> {a.text}
+            </>
+          ) : (
+            "🔒"
+          )}
         </div>
       ))}
     </div>
