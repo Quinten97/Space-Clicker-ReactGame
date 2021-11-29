@@ -1,0 +1,147 @@
+/* color pallete
+  #222831
+  #30475E
+  #F05454
+  #E8E8E8 */
+
+* {
+  /* border: 1px solid red; */
+}
+
+html {
+  background-image: url("https://i.imgur.com/t7QwXBX.jpeg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  max-width: 320px;
+  margin: 1rem auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-p {
+  margin: 0.1rem;
+  color: white;
+}
+
+progress {
+  border: 1px solid black;
+  width: 15rem;
+}
+progress::-webkit-progress-bar {
+  background-color: #30475e;
+}
+progress::-webkit-progress-value {
+  background-color: #f05454;
+  box-shadow: 1px 1px 5px 3px rgba(255, 0, 0, 0.8);
+}
+
+.counter-container {
+  width: 15rem;
+  color: white;
+  border-radius: 1rem;
+  margin: 1rem 0rem;
+  padding: 0.5rem;
+  background: rgba(48, 71, 94, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.store-container {
+  height: 10rem;
+  width: 15rem;
+  overflow: auto;
+  padding: 1rem;
+  background: rgba(48, 71, 94, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.main-clicker {
+  border: none;
+  border-radius: 1rem;
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+}
+
+.btn {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 12rem;
+  margin: 0.25rem;
+  box-shadow: 2px 2px 4px black;
+}
+
+.achievements-container {
+  height: 7rem;
+  width: 15rem;
+  margin: 1rem 0rem;
+  overflow: auto;
+  padding: 1rem;
+  background: rgba(48, 71, 94, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+
+.achievements-off {
+  background-color: black;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+  box-shadow: 2px 2px 4px black;
+  font-size: 12px;
+}
+
+.achievements-on {
+  background-color: #e8e8e8;
+  border: none;
+  border-radius: 1rem;
+  height: 3rem;
+  width: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem auto;
+  box-shadow: 2px 2px 4px black;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 765px) {
+  body {
+    margin: 2rem auto;
+    max-width: 765px;
+  }
+
+  html {
+    background-size: 100%;
+  }
+}
