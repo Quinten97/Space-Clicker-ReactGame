@@ -19,12 +19,9 @@ html {
 .App {
   font-family: sans-serif;
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   display: grid;
-  place-items: start center;
-  grid-template-rows: max-content 1fr 1fr;
+  place-items: center;
+  grid-template-rows: max-content 1fr 1fr 1fr;
   height: 100vh;
   padding: 1rem;
 }
@@ -32,6 +29,7 @@ html {
 body {
   max-width: 320px;
   margin: 0;
+  overflow: hidden;
 }
 
 .container {
@@ -80,7 +78,6 @@ progress::-webkit-progress-value {
 
 .store {
   height: 10rem;
-  /* width: 15rem; */
   overflow: auto;
   padding: 1rem;
   background: rgba(48, 71, 94, 0.25);
@@ -112,7 +109,7 @@ progress::-webkit-progress-value {
 }
 
 .achievements {
-  height: 7rem;
+  height: 10rem;
   margin: 1rem 0rem;
   overflow: auto;
   padding: 1rem;
@@ -132,6 +129,21 @@ progress::-webkit-progress-value {
 .achievements-off {
   /* background-color: #000; */
   opacity: 0.6;
+}
+
+.animated-btn {
+  position: absolute;
+  top: 15%;
+  left: -20%;
+  overflow: hidden;
+}
+
+.animated-btn-moving {
+  position: absolute;
+  left: 120%;
+  transition: left 10s;
+  transition-timing-function: linear;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 765px) {
