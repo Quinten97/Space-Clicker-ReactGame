@@ -22,7 +22,7 @@ html {
   display: grid;
   place-items: center;
   grid-template-rows: max-content 1fr 1fr 1fr 1fr;
-  height: 100vh;
+  height: 100%;
   padding: 1rem;
 }
 
@@ -77,7 +77,7 @@ progress::-webkit-progress-value {
 }
 
 .store {
-  height: 10rem;
+  height: 25vh;
   overflow: auto;
   padding: 1rem;
   background: rgba(48, 71, 94, 0.25);
@@ -109,7 +109,7 @@ progress::-webkit-progress-value {
 }
 
 .achievements {
-  height: 10rem;
+  height: 20vh;
   margin: 1rem 0rem;
   overflow: auto;
   padding: 1rem;
