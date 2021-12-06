@@ -21,13 +21,13 @@ html {
   text-align: center;
   display: grid;
   place-items: center;
-  grid-template-rows: max-content 1fr 1fr 1fr;
+  grid-template-rows: max-content 1fr 1fr 1fr 1fr;
   height: 100vh;
   padding: 1rem;
 }
 
 body {
-  max-width: 320px;
+  max-width: 765px;
   margin: 0;
   overflow: hidden;
 }
@@ -146,13 +146,10 @@ progress::-webkit-progress-value {
   overflow: hidden;
 }
 
-@media screen and (min-width: 765px) {
-  body {
-    margin: 2rem auto;
-    max-width: 765px;
-  }
-
+@media screen and (min-width: 320px) {
   html {
-    background-size: 100%;
+    background-size: 150%;
+    display: flex;
+    justify-content: center;
   }
 }
