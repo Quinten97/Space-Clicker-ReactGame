@@ -96,11 +96,11 @@ progress::-webkit-progress-value {
   padding: 0;
 }
 
-.rocket-image {
+/* .rocket-image {
   width: 4rem;
   height: 4rem;
   background-image: url(/src/rocket.png);
-}
+} */
 
 /* .rocekt-image:hover {
   background: url(https://imgur.com/ON0SOKh) no-repeat 0 0;
