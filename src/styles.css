@@ -90,21 +90,22 @@ progress::-webkit-progress-value {
 .main-clicker {
   background: none;
   border: none;
-  width: 4rem;
-  height: 4rem;
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 
-/* .rocket-image {
-  width: 4rem;
-  height: 4rem;
-  background-image: url(/src/rocket.png);
-} */
+.spaceship-img {
+  width: 15vh;
+}
 
-/* .rocekt-image:hover {
-  background: url(https://imgur.com/ON0SOKh) no-repeat 0 0;
-} */
+.spaceship-img:hover {
+  cursor: pointer;
+  transform: scale(95%);
+  filter: brightness(1.1);
+}
+
+.spaceship-img:active {
+  transform: scale(100%);
+}
 
 .btn {
   background-color: #060618;

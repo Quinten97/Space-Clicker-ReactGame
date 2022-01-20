@@ -1,4 +1,5 @@
 import "../styles.css";
+import spaceship from "../rocketship.png";
 
 import { useState } from "react";
 import useInterval from "../Hooks/useInterval";
@@ -47,7 +48,7 @@ export default function CookieButton({
           SPS: {autoIncrement} SPC: {manIncrement}
         </p>
         <button className="main-clicker" onClick={manualIncrement}>
-          Star Collector
+          <img className="spaceship-img" src={spaceship} alt="clicker button" />
         </button>
       </div>
     </div>
