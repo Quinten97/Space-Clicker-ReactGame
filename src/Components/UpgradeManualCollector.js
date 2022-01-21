@@ -19,7 +19,7 @@ export default function UpgradeManualCollector({
 
   return (
     <button className="btn" onClick={manualCollector}>
-      Upgrade Manual Collector <br /> SPC: 1 cost: {Math.floor(manPrice)}
+      Upgrade Manual Collector <br /> KPC: 1 cost: {Math.floor(manPrice)}
     </button>
   );
 }

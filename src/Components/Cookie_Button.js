@@ -32,9 +32,8 @@ export default function CookieButton({
     <div className="main container">
       {/* Progress bar for game completion */}
       <div className="progressbar container">
-        <p className="progress-p">
-          {Math.round((progress / 150000000) * 100)}%
-        </p>
+        <p className="progress-p">Distance to Sun: {progress}/150000000</p>
+        {Math.round((progress / 150000000) * 100)}%
         <progress
           className="progress-bar"
           max="150000000"
@@ -45,7 +44,8 @@ export default function CookieButton({
       <div className="counter container blur-effect">
         <h1>{Math.floor(count)}</h1>
         <p>
-          SPS: {autoIncrement} SPC: {manIncrement}
+          Kilometers per second: {autoIncrement} <br />
+          Kilometers per click: {manIncrement}
         </p>
         <button className="main-clicker" onClick={manualIncrement}>
           <img className="spaceship-img" src={spaceship} alt="clicker button" />

@@ -19,7 +19,7 @@ export default function StarTagger({
 
   return (
     <button className="btn" onClick={buyStarTagger}>
-      Star Tagger <br /> SPC: 5 cost: {Math.floor(taggerPrice)}
+      Star Tagger <br /> KPC: 5 cost: {Math.floor(taggerPrice)}
     </button>
   );
 }

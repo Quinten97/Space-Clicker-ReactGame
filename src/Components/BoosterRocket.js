@@ -19,7 +19,7 @@ export default function BoosterRocket({
 
   return (
     <button className="btn" onClick={buyBoosterRocket}>
-      Booster Rocket <br /> SPC: 50 cost: {Math.floor(boosterPrice)}
+      Booster Rocket <br /> KPC: 50 cost: {Math.floor(boosterPrice)}
     </button>
   );
 }

@@ -16,9 +16,15 @@ export default function AchievementComp({ count, setCount, progress }) {
       img: ""
     },
     {
-      name: "Hello Mercury",
+      name: "Hello Mercury!",
       value: 77000000,
       text: "Travel 77,000,000 Kilometers",
+      img: ""
+    },
+    {
+      name: "Hello Sun!",
+      value: 150000000,
+      text: "Travel 150,000,000 Kilometers",
       img: ""
     }
   ];

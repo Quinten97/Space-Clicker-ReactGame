@@ -19,7 +19,7 @@ export default function StarMagnetizer({
 
   return (
     <button className="btn" onClick={buyStarMagnetizer}>
-      Star Magnetizer <br /> SPC: 15 cost: {Math.floor(magnetizerPrice)}
+      Star Magnetizer <br /> KPC: 15 cost: {Math.floor(magnetizerPrice)}
     </button>
   );
 }

@@ -21,7 +21,7 @@ export default function PassiveStardustCollection({
 
   return (
     <button className="btn" onClick={stardustCollector}>
-      Passive Stardust Collector <br /> SPS: 1 cost: {Math.floor(autoPrice)}
+      Passive Stardust Collector <br /> KPS: 1 cost: {Math.floor(autoPrice)}
     </button>
   );
 }

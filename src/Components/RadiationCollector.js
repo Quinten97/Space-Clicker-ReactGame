@@ -19,7 +19,7 @@ export default function RadiationCollector({
 
   return (
     <button className="btn" onClick={buyRadiationCollector}>
-      Radiation Collector <br /> SPS: 5 cost: {Math.floor(radiationPrice)}
+      Radiation Collector <br /> KPS: 5 cost: {Math.floor(radiationPrice)}
     </button>
   );
 }

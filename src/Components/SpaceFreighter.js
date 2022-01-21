@@ -19,7 +19,7 @@ export default function SpaceFreighter({
 
   return (
     <button className="btn" onClick={buySpaceFreighter}>
-      Space Freighter <br /> SPS: 15 cost: {Math.floor(freighterPrice)}
+      Space Freighter <br /> KPS: 15 cost: {Math.floor(freighterPrice)}
     </button>
   );
 }
